@@ -15,7 +15,6 @@ And then to do something like with docker-compose
       image: darkhelmetlive/mailcatcher
       environment:
         VIRTUAL_HOST: mailcatcher.dev
-        VIRTUAL_PORT: 1080
     app:
       build: .
       links:
