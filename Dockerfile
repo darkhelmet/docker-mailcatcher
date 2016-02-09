@@ -1,4 +1,4 @@
-FROM ruby:2.3.0
+FROM ruby:2.3.0-alpine
 MAINTAINER Daniel Huckstep <danielh@getyardstick.com>
 
 ENV MAILCATCHER_VERSION 0.6.1
